@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/CPP-LEARNING.dir/test.cpp.o" -o CPP-LEARNING 

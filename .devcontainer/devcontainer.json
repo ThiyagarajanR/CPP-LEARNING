@@ -1,0 +1,14 @@
+{
+  "name": "C++ Learning Environment",
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cmake-tools", 
+        "formulahendry.code-runner",
+        "usernamehm.errorlens"
+      ]
+    }
+  }
+}
