@@ -7,7 +7,8 @@
         "ms-vscode.cpptools-extension-pack",
         "ms-vscode.cmake-tools", 
         "formulahendry.code-runner",
-        "usernamehm.errorlens"
+        "usernamehm.errorlens",
+        "ms-vscode.memory-inspector"
       ]
     }
   }

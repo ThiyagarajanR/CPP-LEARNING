@@ -33,7 +33,7 @@ void demonstrateHeap() {
     
     // CRITICAL: You must manually delete heap objects
     delete pNumber;     // Free the integer
-    delete pMessage;    // Free the string
+    //delete pMessage;    // Free the string
     
     // After delete, the pointers still hold the addresses
     // but the memory is no longer valid (dangling pointers!)
