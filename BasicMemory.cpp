@@ -39,11 +39,18 @@ int main()
         std::cout << ".";
         progressFile << ".";
         std::cout.flush();
-        progressFile.flush();
+
+      //  progressFile.flush();
         std::this_thread::sleep_for(std::chrono::milliseconds(500));
+        // without flush the data is not updated
+        if (i == 2) {
+            // Simulate abrupt exit before buffer is flushed
+            std::cout << "\nExiting early, file buffer not flushed!" << std::endl;
+            std::exit(0);
+        }
     }
 
-    progressFile.close();
+    
 
     return 0;;
 
